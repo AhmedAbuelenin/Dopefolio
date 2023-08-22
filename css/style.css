@@ -145,7 +145,7 @@ textarea {
 }
 
 .main-container {
-  max-width: 120rem;
+  max-width: 110rem;
   margin: auto;
   width: 92%;
 }
@@ -333,7 +333,7 @@ textarea {
 
 .projects__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem;
 }
@@ -353,12 +353,17 @@ textarea {
   margin-bottom: 0;
 }
 .projects__row-img-cont {
+  display: flex;
   overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem lightgray;
+  min-height: 30rem;
 }
 .projects__row-img {
-  width: 100%;
   display: block;
+  width: 40%;
   object-fit: cover;
+  margin: auto;
 }
 .projects__row-content {
   padding: 2rem 0;

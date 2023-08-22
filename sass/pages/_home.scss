@@ -128,7 +128,7 @@
 .projects {
   &__row {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
     margin-bottom: 11rem;
 
@@ -147,12 +147,18 @@
     }
 
     &-img-cont {
+      display: flex;
       overflow: hidden;
+      border-radius: 0.5rem;
+      box-shadow: 0.2rem 0.2rem 0.5rem
+        lightgray;
+      min-height: 30rem;
     }
     &-img {
-      width: 100%;
       display: block;
+      width: 40%;
       object-fit: cover;
+      margin: auto;
     }
     &-content {
       padding: 2rem 0;

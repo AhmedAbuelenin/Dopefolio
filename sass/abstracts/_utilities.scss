@@ -93,7 +93,13 @@
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
   }
-
+  &--flex-cont {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1.4rem;
+    font-size: 1.4rem;
+  }
   &--theme {
     background: $themeClrPrimary;
     color: #fff;

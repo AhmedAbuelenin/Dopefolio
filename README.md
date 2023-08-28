@@ -1,6 +1,23 @@
-# Dopefolio 🔥
+# Portfolio 🔥
 
 ## A Blazing Fast Multipage Portfolio Template for Developers 🚀
+
+## Table of Contents
+
+- [Demo](#demo-link-)
+- [Project Achievement](#project-achievement-)
+- [Support](#support)
+- [Features](#features)
+- [Playground](#playground-link-)
+- [Technologies Used](#technologies-used-)
+- [Installation](#installation-)
+- [Instructions](#template-instructions)
+- [Deployment](#deployment-)
+- [Rate](#give-a-star-)
+- [Author](#author-)
+- [Acknowledgements](#special-thanks-)
+- [License](#license-)
+- [Modifications](#modifications)
 
 ## [Demo Link](https://dopefolio.netlify.app) 🔗
 
@@ -16,15 +33,15 @@
 
 <br/>
 
-## ( Update ): Project Achievement 🏆 
+### Project Achievement 🏆
 
 **Dopefolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌
 
-**[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**   
+**[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**
 
 <br/>
 
-----
+---
 
 <br/>
 
@@ -47,14 +64,14 @@ I do need **support** from amazing people like you as I started posting on **[My
 
 ## Features
 
-- ### **Easy to Setup 💯** 
-- ### **Free to Use ( OpenSource ) 🥳** 
-- ### **No Additional Frameworks 🤘** 
-- ### **No Additional Libraries 🙌** 
-- ### **Multi Page 💎** 
-- ### **Fully Responsive 🚀** 
-- ### **Super Fast and Optimized for SEO ⚡** 
-- ### **Great Audits Score 🎖️** 
+- ### **Easy to Setup 💯**
+- ### **Free to Use ( OpenSource ) 🥳**
+- ### **No Additional Frameworks 🤘**
+- ### **No Additional Libraries 🙌**
+- ### **Multi Page 💎**
+- ### **Fully Responsive 🚀**
+- ### **Super Fast and Optimized for SEO ⚡**
+- ### **Great Audits Score 🎖️**
 
 <img src="https://i.ibb.co/1dD8Mky/Screenshot-from-2021-08-28-14-38-30.png" alt="Dopefolio Audits" width="100%" />
 
@@ -63,7 +80,7 @@ I do need **support** from amazing people like you as I started posting on **[My
 
 ## Test the template with different colors on the playground link 🚀
 
-## [Playground Link](https://dopefolio-playground.netlify.app) 🔗
+### [Playground Link](https://dopefolio-playground.netlify.app) 🔗
 
 <div align="center">
   <img src="https://i.postimg.cc/xjsqN9GG/ezgif-com-gif-maker-2.gif" alt="Dopefolio Playground" width="100%" />
@@ -72,11 +89,11 @@ I do need **support** from amazing people like you as I started posting on **[My
 
 <br/>
 
-----
+---
 
 <br/>
 
-## Technologies used 🛠️
+### Technologies Used 🛠️
 
 - **HTML** 🚀
 - **CSS** 🚀
@@ -87,7 +104,7 @@ I do need **support** from amazing people like you as I started posting on **[My
 
 <br/>
 
-## How To Use 🔧
+### Installation 🔧
 
 From your command line, first clone Dopefolio:
 
@@ -165,31 +182,64 @@ Go to `/index.html` and fill your information, there are 6 sections:
 <header class="header">
   <div class="header__content">
     <div class="header__logo-container">
-      <div class="header__logo-img-cont">
+      <div
+        class="header__logo-img-cont"
+      >
         <img
           src="./assets/png/john-doe.png"
           alt="Ram Maheshwari Logo Image"
           class="header__logo-img"
         />
       </div>
-      <span class="header__logo-sub">John Doe</span>
+      <span class="header__logo-sub"
+        >John Doe</span
+      >
     </div>
     <div class="header__main">
       <ul class="header__links">
-        <li class="header__link-wrapper">
-          <a href="./" class="header__link"> Home </a>
+        <li
+          class="header__link-wrapper"
+        >
+          <a
+            href="./"
+            class="header__link"
+          >
+            Home
+          </a>
         </li>
-        <li class="header__link-wrapper">
-          <a href="./#about" class="header__link">About </a>
+        <li
+          class="header__link-wrapper"
+        >
+          <a
+            href="./#about"
+            class="header__link"
+            >About
+          </a>
         </li>
-        <li class="header__link-wrapper">
-          <a href="./#projects" class="header__link"> Projects </a>
+        <li
+          class="header__link-wrapper"
+        >
+          <a
+            href="./#projects"
+            class="header__link"
+          >
+            Projects
+          </a>
         </li>
-        <li class="header__link-wrapper">
-          <a href="./#contact" class="header__link"> Contact </a>
+        <li
+          class="header__link-wrapper"
+        >
+          <a
+            href="./#contact"
+            class="header__link"
+          >
+            Contact
+          </a>
         </li>
       </ul>
-      <div class="header__main-ham-menu-cont">
+      <div
+        class="header__main-ham-menu-cont"
+      >
         <img
           src="./assets/svg/ham-menu.svg"
           alt="hamburger menu"
@@ -199,22 +249,36 @@ Go to `/index.html` and fill your information, there are 6 sections:
     </div>
   </div>
   <div class="header__sm-menu">
-    <div class="header__sm-menu-content">
+    <div
+      class="header__sm-menu-content"
+    >
       <ul class="header__sm-menu-links">
-        <li class="header__sm-menu-link">
+        <li
+          class="header__sm-menu-link"
+        >
           <a href="./"> Home </a>
         </li>
 
-        <li class="header__sm-menu-link">
+        <li
+          class="header__sm-menu-link"
+        >
           <a href="./#about"> About </a>
         </li>
 
-        <li class="header__sm-menu-link">
-          <a href="./#projects"> Projects </a>
+        <li
+          class="header__sm-menu-link"
+        >
+          <a href="./#projects">
+            Projects
+          </a>
         </li>
 
-        <li class="header__sm-menu-link">
-          <a href="./#contact"> Contact </a>
+        <li
+          class="header__sm-menu-link"
+        >
+          <a href="./#contact">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
@@ -233,21 +297,32 @@ Go to `/index.html` and fill your information, there are 6 sections:
 <!-- **** Hero Section of Homepage **** -->
 <section class="home-hero">
   <div class="home-hero__content">
-    <h1 class="heading-primary">Hey, My name is John Doe</h1>
+    <h1 class="heading-primary">
+      Hey, My name is John Doe
+    </h1>
     <div class="home-hero__info">
       <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente solutions for complex
-        problems
+        Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Hic facilis tempora explicabo
+        quae quod deserunt eius sapiente
+        solutions for complex problems
       </p>
     </div>
     <div class="home-hero__cta">
-      <a href="./#projects" class="btn btn--bg">Projects</a>
+      <a
+        href="./#projects"
+        class="btn btn--bg"
+        >Projects</a
+      >
     </div>
   </div>
   <div class="home-hero__socials">
     <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
+      <a
+        href="#"
+        class="home-hero__social-icon-link"
+      >
         <img
           src="./assets/png/linkedin-ico.png"
           alt="icon"
@@ -256,7 +331,10 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </a>
     </div>
     <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
+      <a
+        href="#"
+        class="home-hero__social-icon-link"
+      >
         <img
           src="./assets/png/github-ico.png"
           alt="icon"
@@ -265,7 +343,10 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </a>
     </div>
     <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
+      <a
+        href="#"
+        class="home-hero__social-icon-link"
+      >
         <img
           src="./assets/png/twitter-ico.png"
           alt="icon"
@@ -274,7 +355,10 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </a>
     </div>
     <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
+      <a
+        href="#"
+        class="home-hero__social-icon-link"
+      >
         <img
           src="./assets/png/yt-ico.png"
           alt="icon"
@@ -295,7 +379,9 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </a>
     </div>
   </div>
-  <div class="home-hero__mouse-scroll-cont">
+  <div
+    class="home-hero__mouse-scroll-cont"
+  >
     <div class="mouse"></div>
   </div>
 </section>
@@ -310,56 +396,120 @@ Go to `/index.html` and fill your information, there are 6 sections:
 
 ```html
 <!-- **** About Section of Homepage **** -->
-<section id="about" class="about sec-pad">
+<section
+  id="about"
+  class="about sec-pad"
+>
   <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main">About Me</span>
+    <h2
+      class="heading heading-sec heading-sec__mb-med"
+    >
+      <span class="heading-sec__main"
+        >About Me</span
+      >
       <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
+        Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Hic facilis tempora explicabo
+        quae quod deserunt eius sapiente
       </span>
     </h2>
     <div class="about__content">
       <div class="about__content-main">
-        <h3 class="about__content-title">Get to know me!</h3>
-        <div class="about__content-details">
-          <p class="about__content-details-para">
+        <h3
+          class="about__content-title"
+        >
+          Get to know me!
+        </h3>
+        <div
+          class="about__content-details"
+        >
+          <p
+            class="about__content-details-para"
+          >
             Hey! It's
             <strong>John Doe</strong>
-            and I'm a <strong> Frontend Web Developer </strong> located in Los
-            Angeles. I've done
+            and I'm a
+            <strong>
+              Frontend Web Developer
+            </strong>
+            located in Los Angeles. I've
+            done
             <strong> remote </strong>
-            projects for agencies, consulted for startups, and collaborated with
-            talented people to create
-            <strong>digital products </strong>
-            for both business and consumer use.
+            projects for agencies,
+            consulted for startups, and
+            collaborated with talented
+            people to create
+            <strong
+              >digital products
+            </strong>
+            for both business and
+            consumer use.
           </p>
-          <p class="about__content-details-para">
-            I'm a bit of a digital product junky. Over the years, I've used
-            hundreds of web and mobile apps in different industries and
+          <p
+            class="about__content-details-para"
+          >
+            I'm a bit of a digital
+            product junky. Over the
+            years, I've used hundreds of
+            web and mobile apps in
+            different industries and
             verticals. Feel free to
-            <strong>contact</strong> me here.
+            <strong>contact</strong> me
+            here.
           </p>
         </div>
-        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+        <a
+          href="./#contact"
+          class="btn btn--med btn--theme dynamicBgClr"
           >Contact</a
         >
       </div>
-      <div class="about__content-skills">
-        <h3 class="about__content-title">My Skills</h3>
+      <div
+        class="about__content-skills"
+      >
+        <h3
+          class="about__content-title"
+        >
+          My Skills
+        </h3>
         <div class="skills">
-          <div class="skills__skill">HTML</div>
-          <div class="skills__skill">CSS</div>
-          <div class="skills__skill">JavaScript</div>
-          <div class="skills__skill">React</div>
-          <div class="skills__skill">SASS</div>
-          <div class="skills__skill">GIT</div>
-          <div class="skills__skill">Shopify</div>
-          <div class="skills__skill">Wordpress</div>
-          <div class="skills__skill">Google ADS</div>
-          <div class="skills__skill">Facebook Ads</div>
-          <div class="skills__skill">Android</div>
-          <div class="skills__skill">IOS</div>
+          <div class="skills__skill">
+            HTML
+          </div>
+          <div class="skills__skill">
+            CSS
+          </div>
+          <div class="skills__skill">
+            JavaScript
+          </div>
+          <div class="skills__skill">
+            React
+          </div>
+          <div class="skills__skill">
+            SASS
+          </div>
+          <div class="skills__skill">
+            GIT
+          </div>
+          <div class="skills__skill">
+            Shopify
+          </div>
+          <div class="skills__skill">
+            Wordpress
+          </div>
+          <div class="skills__skill">
+            Google ADS
+          </div>
+          <div class="skills__skill">
+            Facebook Ads
+          </div>
+          <div class="skills__skill">
+            Android
+          </div>
+          <div class="skills__skill">
+            IOS
+          </div>
         </div>
       </div>
     </div>
@@ -386,19 +536,30 @@ Currently, I have already added a separate for each project ( considering there 
 
 ```html
 <!-- **** Projects Section of Homepage **** -->
-<section id="projects" class="projects sec-pad">
+<section
+  id="projects"
+  class="projects sec-pad"
+>
   <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-bg">
-      <span class="heading-sec__main">Projects</span>
+    <h2
+      class="heading heading-sec heading-sec__mb-bg"
+    >
+      <span class="heading-sec__main"
+        >Projects</span
+      >
       <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
+        Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Hic facilis tempora explicabo
+        quae quod deserunt eius sapiente
       </span>
     </h2>
 
     <div class="projects__content">
       <div class="projects__row">
-        <div class="projects__row-img-cont">
+        <div
+          class="projects__row-img-cont"
+        >
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
@@ -406,11 +567,22 @@ Currently, I have already added a separate for each project ( considering there 
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 1</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+        <div
+          class="projects__row-content"
+        >
+          <h3
+            class="projects__row-content-title"
+          >
+            Project 1
+          </h3>
+          <p
+            class="projects__row-content-desc"
+          >
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Hic facilis tempora,
+            explicabo quae quod deserunt
+            eius sapiente praesentium.
           </p>
           <a
             href="./project-1.html"
@@ -421,7 +593,9 @@ Currently, I have already added a separate for each project ( considering there 
         </div>
       </div>
       <div class="projects__row">
-        <div class="projects__row-img-cont">
+        <div
+          class="projects__row-img-cont"
+        >
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
@@ -429,11 +603,22 @@ Currently, I have already added a separate for each project ( considering there 
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 2</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+        <div
+          class="projects__row-content"
+        >
+          <h3
+            class="projects__row-content-title"
+          >
+            Project 2
+          </h3>
+          <p
+            class="projects__row-content-desc"
+          >
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Hic facilis tempora,
+            explicabo quae quod deserunt
+            eius sapiente praesentium.
           </p>
           <a
             href="./project-2.html"
@@ -444,7 +629,9 @@ Currently, I have already added a separate for each project ( considering there 
         </div>
       </div>
       <div class="projects__row">
-        <div class="projects__row-img-cont">
+        <div
+          class="projects__row-img-cont"
+        >
           <img
             src="./assets/jpeg/project-mockup-example.jpeg"
             alt="Software Screenshot"
@@ -452,11 +639,22 @@ Currently, I have already added a separate for each project ( considering there 
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 3</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+        <div
+          class="projects__row-content"
+        >
+          <h3
+            class="projects__row-content-title"
+          >
+            Project 3
+          </h3>
+          <p
+            class="projects__row-content-desc"
+          >
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Hic facilis tempora,
+            explicabo quae quod deserunt
+            eius sapiente praesentium.
           </p>
           <a
             href="./project-3.html"
@@ -481,19 +679,42 @@ If you like to know how to submit forms so you can receive the form details in y
 
 ```html
 <!-- **** Contact Section of Homepage **** -->
-<section id="contact" class="contact sec-pad dynamicBg">
+<section
+  id="contact"
+  class="contact sec-pad dynamicBg"
+>
   <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-      <span class="heading-sec__sub heading-sec__sub--lt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
+    <h2
+      class="heading heading-sec heading-sec__mb-med"
+    >
+      <span
+        class="heading-sec__main heading-sec__main--lt"
+        >Contact</span
+      >
+      <span
+        class="heading-sec__sub heading-sec__sub--lt"
+      >
+        Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Hic facilis tempora explicabo
+        quae quod deserunt eius sapiente
       </span>
     </h2>
-    <div class="contact__form-container">
-      <form action="#" class="contact__form">
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="name">Name</label>
+    <div
+      class="contact__form-container"
+    >
+      <form
+        action="#"
+        class="contact__form"
+      >
+        <div
+          class="contact__form-field"
+        >
+          <label
+            class="contact__form-label"
+            for="name"
+            >Name</label
+          >
           <input
             required
             placeholder="Enter Your Name"
@@ -503,8 +724,14 @@ If you like to know how to submit forms so you can receive the form details in y
             id="name"
           />
         </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="email">Email</label>
+        <div
+          class="contact__form-field"
+        >
+          <label
+            class="contact__form-label"
+            for="email"
+            >Email</label
+          >
           <input
             required
             placeholder="Enter Your Email"
@@ -514,8 +741,14 @@ If you like to know how to submit forms so you can receive the form details in y
             id="email"
           />
         </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="message">Message</label>
+        <div
+          class="contact__form-field"
+        >
+          <label
+            class="contact__form-label"
+            for="message"
+            >Message</label
+          >
           <textarea
             required
             cols="30"
@@ -526,7 +759,10 @@ If you like to know how to submit forms so you can receive the form details in y
             id="message"
           ></textarea>
         </div>
-        <button type="submit" class="btn btn--theme contact__btn">
+        <button
+          type="submit"
+          class="btn btn--theme contact__btn"
+        >
           Submit
         </button>
       </form>
@@ -535,8 +771,6 @@ If you like to know how to submit forms so you can receive the form details in y
 </section>
 <!-- END Contact Section -->
 ```
-
-
 
 ### Footer Section
 
@@ -549,40 +783,66 @@ If you like to know how to submit forms so you can receive the form details in y
 <footer class="main-footer">
   <div class="main-container">
     <div class="main-footer__upper">
-      <div class="main-footer__row main-footer__row-1">
-        <h2 class="heading heading-sm main-footer__heading-sm">
+      <div
+        class="main-footer__row main-footer__row-1"
+      >
+        <h2
+          class="heading heading-sm main-footer__heading-sm"
+        >
           <span>Social</span>
         </h2>
-        <div class="main-footer__social-cont">
-          <a target="_blank" rel="noreferrer" href="#">
+        <div
+          class="main-footer__social-cont"
+        >
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="#"
+          >
             <img
               class="main-footer__icon"
               src="./assets/png/linkedin-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="#"
+          >
             <img
               class="main-footer__icon"
               src="./assets/png/github-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="#"
+          >
             <img
               class="main-footer__icon"
               src="./assets/png/twitter-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="#"
+          >
             <img
               class="main-footer__icon"
               src="./assets/png/yt-ico.png"
               alt="icon"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="#"
+          >
             <img
               class="main-footer__icon main-footer__icon--mr-none"
               src="./assets/png/insta-ico.png"
@@ -591,18 +851,31 @@ If you like to know how to submit forms so you can receive the form details in y
           </a>
         </div>
       </div>
-      <div class="main-footer__row main-footer__row-2">
-        <h4 class="heading heading-sm text-lt">John Doe</h4>
-        <p class="main-footer__short-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-          tempora explicabo quae quod deserunt
+      <div
+        class="main-footer__row main-footer__row-2"
+      >
+        <h4
+          class="heading heading-sm text-lt"
+        >
+          John Doe
+        </h4>
+        <p
+          class="main-footer__short-desc"
+        >
+          Lorem ipsum dolor sit amet
+          consectetur adipisicing elit
+          facilis tempora explicabo quae
+          quod deserunt
         </p>
       </div>
     </div>
 
     <div class="main-footer__lower">
       &copy; Copyright 2021. Made by
-      <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://rammaheshwari.com"
         >Ram Maheshwari</a
       >
     </div>
@@ -632,16 +905,25 @@ Each project will have its own Page. The project page will have important detail
 ```html
 <section class="project-cs-hero">
   <div class="project-cs-hero__content">
-    <h1 class="heading-primary">Project 1</h1>
+    <h1 class="heading-primary">
+      Project 1
+    </h1>
     <div class="project-cs-hero__info">
       <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in
-        numquam incidunt earum quaerat cum fuga, atque similique natus nobis
-        sit.
+        Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Dignissimos in numquam incidunt
+        earum quaerat cum fuga, atque
+        similique natus nobis sit.
       </p>
     </div>
     <div class="project-cs-hero__cta">
-      <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+      <a
+        href="#"
+        class="btn btn--bg"
+        target="_blank"
+        >Live Link</a
+      >
     </div>
   </div>
 </section>
@@ -662,52 +944,120 @@ Each project will have its own Page. The project page will have important detail
 ```html
 <section class="project-details">
   <div class="main-container">
-    <div class="project-details__content">
-      <div class="project-details__showcase-img-cont">
+    <div
+      class="project-details__content"
+    >
+      <div
+        class="project-details__showcase-img-cont"
+      >
         <img
           src="./assets/jpeg/project-mockup-example.jpeg"
           alt="Project Image"
           class="project-details__showcase-img"
         />
       </div>
-      <div class="project-details__content-main">
-        <div class="project-details__desc">
-          <h3 class="project-details__content-title">Project Overview</h3>
-          <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
-            laborum corrupti ullam rem. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut
-            provident blanditiis, deleniti aspernatur ipsam eaque veniam
-            voluptatem corporis vitae mollitia laborum corrupti ullam rem?
+      <div
+        class="project-details__content-main"
+      >
+        <div
+          class="project-details__desc"
+        >
+          <h3
+            class="project-details__content-title"
+          >
+            Project Overview
+          </h3>
+          <p
+            class="project-details__desc-para"
+          >
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Neque alias tenetur
+            minus quaerat aliquid, aut
+            provident blanditiis,
+            deleniti aspernatur ipsam
+            eaque veniam voluptatem
+            corporis vitae mollitia
+            laborum corrupti ullam rem.
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Neque alias tenetur
+            minus quaerat aliquid, aut
+            provident blanditiis,
+            deleniti aspernatur ipsam
+            eaque veniam voluptatem
+            corporis vitae mollitia
+            laborum corrupti ullam rem?
           </p>
-          <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
+          <p
+            class="project-details__desc-para"
+          >
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Neque alias tenetur
+            minus quaerat aliquid, aut
+            provident blanditiis,
+            deleniti aspernatur ipsam
+            eaque veniam voluptatem
+            corporis vitae mollitia
             laborum corrupti ullam rem?
           </p>
         </div>
-        <div class="project-details__tools-used">
-          <h3 class="project-details__content-title">Tools Used</h3>
+        <div
+          class="project-details__tools-used"
+        >
+          <h3
+            class="project-details__content-title"
+          >
+            Tools Used
+          </h3>
           <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">React</div>
-            <div class="skills__skill">SASS</div>
-            <div class="skills__skill">GIT</div>
-            <div class="skills__skill">Shopify</div>
-            <div class="skills__skill">Wordpress</div>
-            <div class="skills__skill">Google ADS</div>
-            <div class="skills__skill">Facebook Ads</div>
-            <div class="skills__skill">Android</div>
-            <div class="skills__skill">IOS</div>
+            <div class="skills__skill">
+              HTML
+            </div>
+            <div class="skills__skill">
+              CSS
+            </div>
+            <div class="skills__skill">
+              JavaScript
+            </div>
+            <div class="skills__skill">
+              React
+            </div>
+            <div class="skills__skill">
+              SASS
+            </div>
+            <div class="skills__skill">
+              GIT
+            </div>
+            <div class="skills__skill">
+              Shopify
+            </div>
+            <div class="skills__skill">
+              Wordpress
+            </div>
+            <div class="skills__skill">
+              Google ADS
+            </div>
+            <div class="skills__skill">
+              Facebook Ads
+            </div>
+            <div class="skills__skill">
+              Android
+            </div>
+            <div class="skills__skill">
+              IOS
+            </div>
           </div>
         </div>
-        <div class="project-details__links">
-          <h3 class="project-details__content-title">See Live</h3>
+        <div
+          class="project-details__links"
+        >
+          <h3
+            class="project-details__content-title"
+          >
+            See Live
+          </h3>
           <a
             href="#"
             class="btn btn--med btn--theme project-details__links-btn"
@@ -735,8 +1085,7 @@ Each project will have its own Page. The project page will have important detail
 
 <br>
 
-
-## Deployment 📦
+### Deployment 📦
 
 Once you have done with your setup. You need to put your website online!
 
@@ -750,7 +1099,7 @@ Once you press the **Create Site Button** then you will have to follow the 3 ste
 
 2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio )
 
-3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the  **image** below
+3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the **image** below
 
 <div align="center">
   <img src="https://i.ibb.co/hDTTrPB/Set-Build-Command-to.png" alt="Dopefolio Build Command Example and Publish Directory Value" width="100%" />
@@ -767,7 +1116,7 @@ Then hit the **Deploy site** button and your **Portfolio Site** is live 🥳
 
 <br>
 
-## Give a Star ⭐
+### Give a Star ⭐
 
 If you like this project then give it a **Github** star by pressing the **Star** button ⭐
 
@@ -777,15 +1126,15 @@ If you like this project then give it a **Github** star by pressing the **Star**
 
 <br>
 
-## Author 👨‍💻
+### Author 👨‍💻
 
-- **Ram Maheshwari** - **[Linkedin](https://linkedin.com/in/rammcodes)**, **[Twitter](https://twitter.com/rammcodes)**, **[Github](https://github.com/rammcodes)**, **[Portfolio](https://rammaheshwari.com)**  
+- **Ram Maheshwari** - **[Linkedin](https://linkedin.com/in/rammcodes)**, **[Twitter](https://twitter.com/rammcodes)**, **[Github](https://github.com/rammcodes)**, **[Portfolio](https://rammaheshwari.com)**
 
 <br>
 
-#### Note: 
-I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
+#### Note:
 
+I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
 
 <br>
 
@@ -793,7 +1142,7 @@ I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )
 
 <br>
 
-## Special Thanks ❤️
+### Special Thanks ❤️
 
 Special thanks to [Jacobo Martínez](https://github.com/cobidev) for inspiring me to create something useful for the Developer Community. **Jacobo** is the creator of [Simplefolio](https://github.com/cobidev/simplefolio) which is another great Portfolio website Template for Developers. Check it out and show him some love ❤️
 
@@ -803,7 +1152,17 @@ Special thanks to [Jacobo Martínez](https://github.com/cobidev) for inspiring m
 
 <br>
 
-## License 📄
+### License 📄
 
-This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the **GPL-3.0** License - see the [LICENSE](LICENSE) file for details
 
+## Modifications
+
+This is a modified version of the original dopefolio template. The modifications are as follows:
+
+1. Removed social links and projects from hero.
+2. Changed about me description and skills to mine.
+3. Added my projects, changed the project row alignment for each row and added two links for apple and play stores.
+4. Replaced contact form with email address.
+5. Added my details in footer name, description, social links and copyrights.
+6. Change project name

@@ -35,6 +35,9 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
   </head>
 
   <body>
@@ -117,9 +120,9 @@
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Ahmed</h1>
+        <h1 class="heading-primary reveal">Hey, My name is Ahmed</h1>
         <div class="home-hero__info">
-          <p class="text-primary">
+          <p class="text-primary reveal">
             React Native Developer
           </p>
         </div>
@@ -137,7 +140,7 @@
           <span class="heading-sec__main">About Me</span>
         </h2>
         <div class="about__content">
-          <div class="about__content-main">
+          <div class="about__content-main reveal">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
@@ -161,7 +164,7 @@
               class="btn btn--med"
             >Contact</a>
           </div>
-          <div class="about__content-skills">
+          <div class="about__content-skills reveal">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
               <div class="skills__skill">JavaScript</div>
@@ -193,12 +196,13 @@
       class="projects sec-pad"
     >
       <div class="main-container">
+
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
         </h2>
 
         <div class="projects__content">
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/png/highhigh-logo.png"
@@ -244,7 +248,7 @@
               </div>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Mr Fresh</h3>
               <p class="projects__row-content-desc">
@@ -288,7 +292,7 @@
               />
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-img-cont">
               <img
                 src="./assets//png/azkaataam-logo.png"
@@ -331,7 +335,7 @@
               </div>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Prreetty</h3>
               <p class="projects__row-content-desc">
@@ -376,7 +380,7 @@
               />
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-img-cont">
               <img
                 src="./assets//png/PiggyPag-logo.png"
@@ -417,10 +421,13 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
         </h2>
-        <span class="heading-sec__sub">
+        <span
+          id="contact-subheader"
+          class="heading-sec__sub reveal"
+        >
           Let's Discuss Your Project
         </span>
-        <div class="contact__email-container">
+        <div class="contact__email-container reveal">
           <a
             href="mailto:eng.ahmedabdelmonem05@gmail.com"
             alt="Contact Email"
@@ -441,10 +448,13 @@
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
+            <h2
+              id="social-heading"
+              class="heading heading-sm main-footer__heading-sm reveal"
+            >
               <span>Social</span>
             </h2>
-            <div class="main-footer__social-cont">
+            <div class="main-footer__social-cont reveal">
               <a
                 href="https://www.linkedin.com/in/ahmed-abdelmonem-8b5611110/"
                 target="_blank"
@@ -472,8 +482,11 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Ahmed Abdelmonem</h4>
-            <p class="main-footer__short-desc">
+            <h4
+              id="name-heading"
+              class="heading heading-sm text-lt reveal"
+            >Ahmed Abdelmonem</h4>
+            <p class="main-footer__short-desc reveal">
               A Mobile developer who use react native framework, to build
               native ui on cross platforms android and ios.
             </p>
@@ -481,20 +494,20 @@
         </div>
 
         <div class="main-footer__lower-container">
-          <div class="main-footer__lower">
+          <div class="main-footer__lower reveal">
             &copy; Modified Copyright 2023. Made by
-            <span>Ahmed Abdelmonem</span>
+            Ahmed Abdelmonem
           </div>
-          <div class="main-footer__lower">
+          <div class="main-footer__lower reveal">
             &copy; Original Copyright 2021. Made by
-            <span>Ram Maheshwari</span>
+            Ram Maheshwari
           </div>
         </div>
       </div>
     </footer>
 
     <script src="./index.js"></script>
-
+    <script src="./js/scrollMagic.js"></script>
   </body>
 
 </html>

@@ -253,7 +253,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -421,7 +421,7 @@ textarea {
 }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
@@ -441,7 +441,7 @@ textarea {
   color: #fff;
 }
 .contact__email-link:hover .contact__email-img {
-  background-image: url(../../assets/png/mail-ico.png);
+  background-image: url(../assets/png/mail-ico.png);
 }
 
 .header {

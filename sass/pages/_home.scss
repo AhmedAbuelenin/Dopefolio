@@ -119,6 +119,11 @@
       box-shadow: 0.2rem 0.2rem 0.5rem
         lightgray;
       min-height: 30rem;
+      &-order-top {
+        @include respond(tab-port) {
+          order: -1;
+        }
+      }
     }
     &-img {
       display: block;

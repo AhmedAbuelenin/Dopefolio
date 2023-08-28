@@ -369,6 +369,11 @@ textarea {
   box-shadow: 0.2rem 0.2rem 0.5rem lightgray;
   min-height: 30rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .projects__row-img-cont-order-top {
+    order: -1;
+  }
+}
 .projects__row-img {
   display: block;
   width: 40%;

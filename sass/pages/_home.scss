@@ -217,12 +217,10 @@
     color: #eee;
     transition: 0.3s;
   }
-
   &__email-link:hover {
     color: #fff;
   }
-
-  &__email-link:hover &__email-img {
-    background-image: url(../assets/png/mail-ico.png);
+  &__email-link:hover &__email-ico {
+    fill: #fff;
   }
 }

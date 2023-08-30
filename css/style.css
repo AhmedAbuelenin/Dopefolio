@@ -462,8 +462,8 @@ textarea {
 .contact__email-link:hover {
   color: #fff;
 }
-.contact__email-link:hover .contact__email-img {
-  background-image: url(../assets/png/mail-ico.png);
+.contact__email-link:hover .contact__email-ico {
+  fill: #fff;
 }
 
 .header {

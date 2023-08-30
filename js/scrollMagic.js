@@ -19,6 +19,7 @@ function createScene(
 
 createScene('.heading-primary')
 createScene('.text-primary')
+createScene('#download-cv')
 createScene('.about__content-main')
 createScene('.about__content-skills')
 createScene('.projects__row')

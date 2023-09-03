@@ -1,11 +1,6 @@
 .home-hero {
   color: #fff;
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../assets/svg/common-bg.svg);
+  background-image: url(../assets/svg/common-bg.svg);
   background-position: center;
 
   height: 100vh;
@@ -195,12 +190,7 @@
 }
 
 .contact {
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../assets/svg/common-bg.svg);
+  background-image: url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 
@@ -214,13 +204,12 @@
     align-items: center;
     gap: 0.7rem;
     font-size: 1.6rem;
-    color: #eee;
     transition: 0.3s;
   }
   &__email-link:hover {
-    color: #fff;
+    color: $themeClrPrimary;
   }
   &__email-link:hover &__email-ico {
-    fill: #fff;
+    fill: $themeClrPrimary;
   }
 }

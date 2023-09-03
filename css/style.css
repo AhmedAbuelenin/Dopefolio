@@ -651,9 +651,14 @@ textarea {
 .main-footer__icon {
   margin-right: 1rem;
   width: 2.5rem;
+  fill: #fff;
+  transition: 0.3s;
 }
 .main-footer__icon--mr-none {
   margin-right: 0;
+}
+.main-footer__icon:hover {
+  fill: #0062b9;
 }
 .main-footer__lower-container {
   display: flex;

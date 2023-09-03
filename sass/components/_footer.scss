@@ -42,9 +42,14 @@
   &__icon {
     margin-right: 1rem;
     width: 2.5rem;
+    fill: #fff;
+    transition: 0.3s;
     &--mr-none {
       margin-right: 0;
     }
+  }
+  &__icon:hover {
+    fill: $themeClrPrimary;
   }
 
   &__lower-container {

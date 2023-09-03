@@ -57,7 +57,7 @@
     margin-left: -0.4rem;
   }
   &__download-cv-link:hover &__arrow {
-    animation: jumpToStart 0.8s ease-out;
+    animation: none;
   }
 
   @keyframes jump {
@@ -67,11 +67,6 @@
 
     to {
       transform: translateY(0.4rem);
-    }
-  }
-  @keyframes jumpToStart {
-    to {
-      transform: translateY(0);
     }
   }
 }

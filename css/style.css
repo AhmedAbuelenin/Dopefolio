@@ -305,7 +305,7 @@ textarea {
   margin-left: -0.4rem;
 }
 .home-hero__download-cv-link:hover .home-hero__arrow {
-  animation: jumpToStart 0.8s ease-out;
+  animation: none;
 }
 @keyframes jump {
   from {
@@ -313,11 +313,6 @@ textarea {
   }
   to {
     transform: translateY(0.4rem);
-  }
-}
-@keyframes jumpToStart {
-  to {
-    transform: translateY(0);
   }
 }
 

@@ -92,12 +92,12 @@
   display: inline-block;
   font-weight: 700;
   border-radius: $commonBorderRadius;
-  box-shadow: 0 5px 15px 0
-    rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 
   &:hover {
     transform: translateY(-3px);
+    color: $themeClrPrimary;
   }
 
   &--bg {
@@ -120,8 +120,7 @@
     background: #fff;
     border: 2px solid $themeClrPrimary;
     box-shadow: none;
-    padding: calc(1.5rem - 2px)
-      calc(5rem - 2px);
+    padding: calc(1.5rem - 2px) calc(5rem - 2px);
   }
 }
 

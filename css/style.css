@@ -176,6 +176,7 @@ textarea {
 }
 .btn:hover {
   transform: translateY(-3px);
+  color: #0062b9;
 }
 .btn--bg {
   background-color: #fff;

@@ -1,19 +1,12 @@
-var controller =
-  new ScrollMagic.Controller()
+var controller = new ScrollMagic.Controller()
 
-function createScene(
-  triggerElement,
-  triggerHook = 0.8
-) {
+function createScene(triggerElement, triggerHook = 0.8) {
   return new ScrollMagic.Scene({
     triggerElement: triggerElement,
     triggerHook,
     reverse: false
   })
-    .setClassToggle(
-      triggerElement,
-      'reveal--visible'
-    )
+    .setClassToggle(triggerElement, 'reveal--visible')
     .addTo(controller)
 }
 

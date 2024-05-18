@@ -51,8 +51,7 @@
   }
   &__arrow {
     display: inline-block;
-    animation: jump 0.8s ease infinite
-      alternate;
+    animation: jump 0.8s ease infinite alternate;
     margin-bottom: -0.5rem;
     margin-left: -0.4rem;
   }
@@ -131,15 +130,18 @@
       display: flex;
       overflow: hidden;
       border-radius: 0.5rem;
-      box-shadow: 0.2rem 0.2rem 0.5rem
-        lightgray;
+      box-shadow: 0.2rem 0.2rem 0.5rem lightgray;
       min-height: 30rem;
       &-order-top {
         @include respond(tab-port) {
           order: -1;
         }
       }
+      &-style {
+        padding-top: 5rem;
+      }
     }
+
     &-img {
       display: block;
       width: 40%;

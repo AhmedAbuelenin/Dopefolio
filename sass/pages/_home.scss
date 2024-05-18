@@ -202,10 +202,12 @@
     gap: 0.7rem;
     font-size: 1.6rem;
     transition: 0.3s;
+
+    &:hover {
+      color: $themeClrPrimary;
+    }
   }
-  &__email-link:hover {
-    color: $themeClrPrimary;
-  }
+
   &__email-link:hover &__email-ico {
     fill: $themeClrPrimary;
   }

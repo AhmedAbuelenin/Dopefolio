@@ -49,6 +49,9 @@
     margin-top: 5rem;
     text-align: center;
   }
+  &__download-cv-link {
+    min-width: 26rem;
+  }
   &__arrow {
     display: inline-block;
     animation: jump 0.8s ease infinite alternate;
@@ -57,6 +60,7 @@
   }
   &__download-cv-link:hover &__arrow {
     animation: none;
+    display: none;
   }
 
   @keyframes jump {

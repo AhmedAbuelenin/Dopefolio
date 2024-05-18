@@ -48,7 +48,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -116,11 +116,11 @@ textarea {
   position: relative;
 }
 .heading-sec__main--lt::after {
-  content: "";
+  content: '';
   background: #0062b9 !important;
 }
 .heading-sec__main::after {
-  content: "";
+  content: '';
   position: absolute;
   top: calc(100% + 1.5rem);
   height: 5px;
@@ -176,7 +176,6 @@ textarea {
 }
 .btn:hover {
   transform: translateY(-3px);
-  color: #0062b9;
 }
 .btn--bg {
   background-color: #fff;
@@ -706,7 +705,7 @@ textarea {
   overflow: hidden;
 }
 .mouse::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   position: absolute;

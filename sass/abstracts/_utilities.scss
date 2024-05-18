@@ -123,6 +123,13 @@
   }
 }
 
+.home-hero__download-cv-link {
+  &:hover {
+    background-color: $themeClrPrimary;
+    color: #fff;
+  }
+}
+
 .sec-pad {
   padding: 12rem 0;
   @include respond(tab-port) {
